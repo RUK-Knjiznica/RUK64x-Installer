@@ -3,40 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instalacija RUK64x</title>
+    <title>RUK64x – Instalacija</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; background-color: #f0f2f5; }
-        .card { background: white; padding: 2.5rem; border-radius: 16px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); text-align: center; max-width: 450px; width: 90%; }
-        h1 { color: #1a1a1a; margin-bottom: 0.5rem; }
-        p { color: #4a4a4a; line-height: 1.6; margin-bottom: 1.5rem; }
-        .btn { display: inline-block; background-color: #007bff; color: white; padding: 14px 28px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 1.1rem; transition: background 0.2s, transform 0.1s; border: none; cursor: pointer; }
-        .btn:hover { background-color: #0056b3; transform: translateY(-1px); }
-        .btn:active { transform: translateY(0); }
-        .steps { text-align: left; background: #f8f9fa; padding: 1rem; border-radius: 8px; margin-bottom: 1.5rem; border-left: 4px solid #007bff; }
-        .steps b { display: block; margin-bottom: 5px; color: #333; }
-        .footer { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #eee; font-size: 0.9rem; color: #777; }
-        .cert-link { color: #007bff; text-decoration: none; font-weight: 600; }
-        .cert-link:hover { text-decoration: underline; }
+        body { font-family: Segoe UI, sans-serif; margin: 0; background: #f4f6f9; }
+        .nav { background: #1a73e8; padding: 1rem; display: flex; gap: 2rem; }
+        .nav a { color: white; text-decoration: none; font-weight: 600; }
+        .container { max-width: 800px; margin: 2rem auto; background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+        h1 { margin-top: 0; }
+        .btn { display: inline-block; background: #1a73e8; color: white; padding: 14px 28px; border-radius: 8px; text-decoration: none; font-size: 1.2rem; font-weight: bold; }
+        .btn:hover { background: #155ec0; }
+        .steps { background: #eef3fb; padding: 1rem; border-left: 4px solid #1a73e8; border-radius: 6px; }
     </style>
 </head>
 <body>
-    <div class="card">
-        <h1>RUK64x Instalacija</h1>
-        <p>Preuzmite instalacijski paket klikom na gumb ispod.</p>
-        
-        <div class="steps">
-            <b>Upute:</b>
-            1. Preuzmite datoteku.<br>
-            2. Pokrenite je dvoklikom iz mape "Preuzimanja".
-        </div>
 
-        <a href="RUK64xInstaller_MSIX.appinstaller" download class="btn">PREUZMI INSTALACIJSKI PAKET</a>
-        
-        <div class="footer">
-            <p>Prije prve instalacije obavezno instalirajte:<br> 
-            <a href="RUK64xInstaller_MSIX.cer" class="cert-link">Digitalni certifikat (CER)</a></p>
-            <p>Trenutna verzija: 1.1.7.0</p>
-        </div>
+<div class="nav">
+    <a href="index.html">Instalacija</a>
+    <a href="certifikat.html">Certifikat</a>
+    <a href="update.html">Update</a>
+    <a href="faq.html">FAQ</a>
+</div>
+
+<div class="container">
+    <h1>Instalacija RUK64x</h1>
+    <p>Dobrodošli! Ovdje možete preuzeti instalacijski paket aplikacije RUK64x.</p>
+
+    <div class="steps">
+        <b>Koraci instalacije:</b><br>
+        1. Instalirajte digitalni certifikat (ako ga već nemate).<br>
+        2. Preuzmite instalacijski paket.<br>
+        3. Pokrenite ga dvoklikom i slijedite upute.
     </div>
+
+    <p style="margin-top: 2rem;">
+        <a class="btn" href="RUK64xInstaller_MSIX.appinstaller">PREUZMI INSTALER</a>
+    </p>
+
+    <p>Digitalni certifikat:  
+        <a href="RUK64xInstaller_MSIX.cer">preuzmi ovdje</a>
+    </p>
+
+    <p>Trenutna verzija: <b>1.1.8.0</b></p>
+</div>
+
 </body>
 </html>
