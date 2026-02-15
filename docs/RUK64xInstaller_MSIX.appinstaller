@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AppInstaller 
     xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2" 
-    Uri="https://ruk-knjiznica.github.io/RUK64x-Installer/RUK64xInstaller_MSIX.appinstaller"
+    Uri="https://RUK-Knjiznica.github.io/RUK64x-Installer/RUK64xInstaller_MSIX.appinstaller"
     Version="1.1.7.0">
 
   <MainBundle 
