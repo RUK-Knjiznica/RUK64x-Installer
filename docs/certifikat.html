@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUK64x – Instalacija certifikata</title>
+    <style>
+        body { font-family: Segoe UI, sans-serif; margin: 0; background: #f4f6f9; }
+        .nav { background: #1a73e8; padding: 1rem; display: flex; gap: 2rem; }
+        .nav a { color: white; text-decoration: none; font-weight: 600; }
+        .container { max-width: 800px; margin: 2rem auto; background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+        h1 { margin-top: 0; }
+        .steps { background: #eef3fb; padding: 1rem; border-left: 4px solid #1a73e8; border-radius: 6px; }
+    </style>
+</head>
+<body>
+
+<div class="nav">
+    <a href="index.html">Instalacija</a>
+    <a href="certifikat.html">Certifikat</a>
+    <a href="update.html">Update</a>
+    <a href="faq.html">FAQ</a>
+</div>
+
+<div class="container">
+    <h1>Kako instalirati certifikat</h1>
+
+    <p>Certifikat je potreban kako bi Windows vjerovao aplikaciji i omogućio instalaciju.</p>
+
+    <div class="steps">
+        <b>Koraci:</b><br>
+        1. Preuzmite certifikat: <a href="RUK64xInstaller_MSIX.cer">RUK64xInstaller_MSIX.cer</a><br>
+        2. Dvoklik na certifikat.<br>
+        3. Kliknite “Install Certificate”.<br>
+        4. Odaberite “Local Machine”.<br>
+        5. Odaberite “Place all certificates in the following store”.<br>
+        6. Odaberite “Trusted People”.<br>
+        7. Potvrdite instalaciju.
+    </div>
+
+    <p style="margin-top: 1.5rem;">Nakon instalacije certifikata možete instalirati aplikaciju.</p>
+</div>
+
+</body>
+</html>
