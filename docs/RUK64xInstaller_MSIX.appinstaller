@@ -2,16 +2,17 @@
 <AppInstaller 
     xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2" 
     Uri="https://RUK-Knjiznica.github.io/RUK64x-Installer/RUK64xInstaller_MSIX.appinstaller"
-    Version="1.1.8.0">
+    Version="1.1.7.0">
 
   <MainBundle 
       Name="2a71639e-ed22-489b-9b36-33a43a5d7268"
-      Version="1.1.8.0"
+      Version="1.1.7.0"
       Publisher="CN=IdeaN"
-      Uri="https://github.com/RUK-Knjiznica/RUK64x-Installer/releases/download/v1.1.8/RUK64xInstaller_MSIX_1.1.8.0_x64.msixbundle" />
+      Uri="https://github.com/RUK-Knjiznica/RUK64x-Installer/releases/download/v1.1.7/RUK64xInstaller_MSIX_1.1.7.0_x64.msixbundle" />
 
   <UpdateSettings>
     <OnLaunch HoursBetweenUpdateChecks="0" />
   </UpdateSettings>
 
 </AppInstaller>
+
