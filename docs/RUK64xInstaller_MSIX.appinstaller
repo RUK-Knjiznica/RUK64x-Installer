@@ -6,7 +6,7 @@
 
   <MainBundle 
       Name="2a71639e-ed22-489b-9b36-33a43a5d7268"
-      Version="1.2.11.0"
+      Version="1.2.1.0"
       Publisher="CN=IdeaN"
       Uri="https://github.com/RUK-Knjiznica/RUK64x-Installer/releases/download/v1.2.1/RUK64xInstaller_MSIX_1.2.1.0_x64.msixbundle" />
 
